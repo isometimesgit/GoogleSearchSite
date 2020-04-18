@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Google search site",
-    "description": "Open google with site:<tab hostname>",
+    "description": "Open google search with site:<tab hostname>",
     "version": "0.0.1",
     "background": {
         "scripts": [
@@ -20,5 +20,10 @@
                 "size": 24
             }
         ]
+    },
+    "applications": {
+        "gecko": {
+            "id": "googlesearchsite@example.com"
+        }
     }
 }
