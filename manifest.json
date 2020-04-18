@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Google search site",
+    "description": "Open google with site:<tab hostname>",
+    "version": "0.0.1",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "search-24px-lighttheme.svg",
+        "theme_icons": [
+            {
+                "light": "search-24px-lighttheme.svg",
+                "dark": "search-24px-darktheme.svg",
+                "size": 24
+            }
+        ]
+    }
+}
